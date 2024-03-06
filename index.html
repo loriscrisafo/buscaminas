@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./dist/main.js" type="module">
+    </script>
+</head>
+
+<body>
+    <h1>Buscaminas</h1>
+    <button id="estat"><img src="img/begin.gif" alt=""></button>
+    <div id="joc">
+
+    </div>
+</body>
+
+<style>
+    .casella {
+        width: 30px;
+        max-width: 30px;
+        height: 30px;
+        max-height: 30px;
+        border: 1px solid black;
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        font-size: large;
+    }
+ 
+    .mina {
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: red;
+    }
+    .noRevelada{
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: rgb(147, 147, 235);
+        width: 30px;
+        height: 30px;
+    }
+    #joc{
+        line-height: 0px;
+        display: grid;
+    }
+    .fila{
+        display: flex;
+    }
+    html,body,h3{margin:0;padding:0}
+</style>
+
+</html>
